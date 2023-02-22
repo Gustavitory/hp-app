@@ -5,22 +5,9 @@ import './List.css'
 
 export const List = (props) => {
     const {data,title,link1,link2}=props   
+    console.log(data)
     let linked1=`/${link1}`
     let linked2=`/${link2}`
-    // const age=(birth)=>{         
-    //     let time=new Date();
-    //     let yyyy=time.getFullYear();
-    //     let mm=time.getMonth();
-    //     let dd=time.getDate();
-    //     let date=[dd,mm,yyyy];
-    //     let birthDate=birth.split('-')
-    //     let age=date[2]-birthDate[2];
-    //     if(birthDate[1]<date[1]){
-    //         age--;
-    //         if(birthDate[0]>date[0])age++;
-    //     }
-    //     return age;
-    // }
     const getHouse=(house)=>{
        
         switch(house){

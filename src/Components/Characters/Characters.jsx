@@ -3,7 +3,6 @@ import { useDispatch,useSelector } from 'react-redux'
 import {characters} from '../../Redux/Actions/index'
 import { List } from '../List/List'
 import './Characters.css'
-import {Fade} from 'react-awesome-reveal'
 
 
 
@@ -21,7 +20,6 @@ export const Characters = () => {
     },[house,dispatch])
     if(house===''){
         return(
-            // <Fade cascade={true} duration={2500}>
             <div className={hou}>
                 <div className='pant'>                    
                     <div className='selects'>
@@ -35,20 +33,16 @@ export const Characters = () => {
                     </div>                    
                 </div>                
             </div>
-        // </Fade>
         )        
     }
     else{
         console.log(char);
        return (
-        <Fade cascade={true} duration={2500}>
             <div className={hou}>
                 <div className='float'>
                     <img className='restart' src="https://i.imgur.com/oJxuDzz.jpg" alt="shell" onClick={()=>setHouse('')} />
                 </div>            
-                <List data={char.data} title='Characters' link1='Staff' link2='Students'/>
-            </div>
-        </Fade>
-        )
+                <List data={char} title='Characters' link1='Staff' link2='Students'/>
+            </div>        )
     }     
 }

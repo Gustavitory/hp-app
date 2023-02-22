@@ -1,9 +1,10 @@
 import {GET_CHARACTERS,GET_STUDENTS,GET_STAFF, CHOOSE_HOUSE,CHARACTERS_HOME} from '../Actions/const'
+import Stu from '../../API//students'
 
 //estado global inicial
 const initialState = {
     staff:[],
-    students:[],
+    students:Stu,
     characters:[],
     house:'none',
     CharactersHome:''

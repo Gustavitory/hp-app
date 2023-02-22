@@ -14,7 +14,7 @@ export const Students = () => {
     return (
         <Fade cascade={true} duration={2500}>
             <div className={hou}>
-                <List data={stud.data} title='Students' link1='Characters' link2='Staff'/>
+                <List data={stud} title='Students' link1='Characters' link2='Staff'/>
             </div>
         </Fade>
     )
