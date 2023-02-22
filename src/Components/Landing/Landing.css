@@ -54,7 +54,7 @@
     position: absolute;
     transform:scale(0.2);
     z-index: 10000;
-    bottom: -10%;
+    bottom:0;
 }
 
 .shell{
