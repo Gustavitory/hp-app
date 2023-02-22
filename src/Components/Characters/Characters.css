@@ -1,0 +1,24 @@
+.pulser{
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png) , pointer !important;
+    width: 10em;
+  }
+.sl{
+  width: 13em;
+}
+.float{
+  position: absolute;
+  right: 75%;
+  top: 25%;
+  }
+.pant{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.712);
+}
+.selects{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12%;
+}

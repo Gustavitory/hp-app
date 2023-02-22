@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Lord_Voldemort_Wand_Cursor.png) , default !important;
+}
+
+body a{
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png) , pointer !important;
+}
+body link{
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png) , pointer !important;
+}
+body button{
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png) , pointer !important;
+}
+body input{
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png) , pointer !important;
+}
+body select{
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png) , pointer !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.none{
+  background-image: url('https://vignette.wikia.nocookie.net/harrypotter/images/5/52/The_Cave.png/revision/latest?cb=20180122195102');
+  transition-duration: 1s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+}
+.slyt{
+  background-image:url('https://www.xtrafondos.com/wallpapers/resized/insignia-slytherin-de-harry-potter-3543.jpg?s=large') ;
+  transition-duration: 1s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+}
+.gryf{
+  background-image:url('https://images.alphacoders.com/556/thumb-1920-556471.jpg') ;
+  transition-duration: 1s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+}
+.rave{
+  background-image: url('https://www.xtrafondos.com/wallpapers/insignia-ravenclaw-de-harry-potter-3544.jpg');
+  transition-duration: 1s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+}
+.huff{
+  background-image: url('https://www.xtrafondos.com/wallpapers/resized/insignia-hufflepuff-de-harry-potter-3545.jpg?s=large');
+  transition-duration: 1s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+}
